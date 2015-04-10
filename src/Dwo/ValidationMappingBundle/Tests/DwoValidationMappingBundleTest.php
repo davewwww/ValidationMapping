@@ -2,12 +2,12 @@
 
 namespace Dwo\ValidationMappingBundle\Tests;
 
-use Dwo\ValidationMappingBundle\ValidationMappingBundle;
+use Dwo\ValidationMappingBundle\DwoValidationMappingBundle;
 
 /**
  * @author David Wolter <david@lovoo.com>
  */
-class ValidationMappingBundleTest extends \PHPUnit_Framework_TestCase
+class DwoValidationMappingBundleTest extends \PHPUnit_Framework_TestCase
 {
     public function test()
     {
@@ -19,7 +19,7 @@ class ValidationMappingBundleTest extends \PHPUnit_Framework_TestCase
             ->method('addCompilerPass')
             ->with($this->isInstanceOf('Dwo\ValidationMappingBundle\DependencyInjection\Compiler\AddValidationMappingsPass'));
 
-        $bundle = new ValidationMappingBundle();
+        $bundle = new DwoValidationMappingBundle();
 
         $bundle->build($container);
     }

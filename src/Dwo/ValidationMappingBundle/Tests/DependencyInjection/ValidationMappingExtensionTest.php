@@ -12,7 +12,7 @@ class ValidationMappingExtensionTest extends \PHPUnit_Framework_TestCase
     public function test()
     {
         $configs = array(
-            'lab_validation_mapping' => array(
+            'dwo_validation_mapping' => array(
                 'mappings' => $mappings = array(
                     array(
                         'file' => 'foo/bar.yml'

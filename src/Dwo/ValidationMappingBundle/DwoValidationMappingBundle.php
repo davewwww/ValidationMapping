@@ -9,7 +9,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * @author David Wolter <david@lovoo.com>
  */
-class ValidationMappingBundle extends Bundle
+class DwoValidationMappingBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

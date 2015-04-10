@@ -12,7 +12,7 @@ public function registerBundles()
 {
     $bundles = array(
         ...
-        new Dwo\ValidationMappingBundle\ValidationMappingBundle(),
+        new Dwo\ValidationMappingBundle\DwoValidationMappingBundle(),
     );
 }
 ```
