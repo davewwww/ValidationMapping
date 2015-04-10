@@ -1,7 +1,7 @@
 ValidationMapping
 =================
 
-add "mappings" configuration key at validation section to define extra validation files which are not in the 'Bundle*/Resources/config' directory.
+define extra validation files which are not in the 'Bundle*/Resources/config' directory
 
 ### Installation
 
