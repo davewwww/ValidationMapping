@@ -2,7 +2,7 @@
 
 namespace Dwo\ValidationMappingBundle\Tests\DependencyInjection;
 
-use Dwo\ValidationMappingBundle\DependencyInjection\ValidationMappingExtension;
+use Dwo\ValidationMappingBundle\DependencyInjection\DwoValidationMappingExtension;
 
 /**
  * @author David Wolter <david@lovoo.com>
@@ -29,7 +29,7 @@ class ValidationMappingExtensionTest extends \PHPUnit_Framework_TestCase
             ->method('setParameter')
             ->with('dwo.validation_mappings', $mappings);
 
-        $extension = new ValidationMappingExtension();
+        $extension = new DwoValidationMappingExtension();
 
         $extension->load($configs, $container);
     }
