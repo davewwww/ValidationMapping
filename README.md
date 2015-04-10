@@ -15,6 +15,7 @@ public function registerBundles()
         new Dwo\ValidationMappingBundle\ValidationMappingBundle(),
     );
 }
+```
 
 ### Usage 
 
