@@ -1,6 +1,6 @@
 <?php
 
-namespace Lab\ValidationMappingBundle\DependencyInjection\Compiler;
+namespace Dwo\ValidationMappingBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\Config\Resource\FileResource;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -16,7 +16,7 @@ class AddValidationMappingsPass implements CompilerPassInterface
      */
     public function process(ContainerBuilder $container)
     {
-        $mappings = $container->getParameter('lab.validation_mappings');
+        $mappings = $container->getParameter('dwo.validation_mappings');
         $validatorBuilder = $container->getDefinition('validator.builder');
 
         $xmlMappings = $yamlMappings = [];

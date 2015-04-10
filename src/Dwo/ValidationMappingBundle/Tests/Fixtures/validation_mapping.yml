@@ -1,0 +1,4 @@
+dwo_validation_mapping:
+    mappings:
+      -
+        file: "validation.yml"

@@ -1,6 +1,6 @@
 <?php
 
-namespace Lab\ValidationMappingBundle\DependencyInjection;
+namespace Dwo\ValidationMappingBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
@@ -19,6 +19,6 @@ class ValidationMappingExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('lab.validation_mappings', $config['mappings']);
+        $container->setParameter('dwo.validation_mappings', $config['mappings']);
     }
 }

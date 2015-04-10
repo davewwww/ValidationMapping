@@ -1,8 +1,8 @@
 <?php
 
-namespace Lab\ValidationMappingBundle;
+namespace Dwo\ValidationMappingBundle;
 
-use Lab\ValidationMappingBundle\DependencyInjection\Compiler\AddValidationMappingsPass;
+use Dwo\ValidationMappingBundle\DependencyInjection\Compiler\AddValidationMappingsPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -11,7 +11,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  */
 class ValidationMappingBundle extends Bundle
 {
-
     public function build(ContainerBuilder $container)
     {
         parent::build($container);
