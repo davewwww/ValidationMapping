@@ -5,7 +5,7 @@ namespace Dwo\ValidationMappingBundle\Tests\DependencyInjection;
 use Dwo\ValidationMappingBundle\DependencyInjection\DwoValidationMappingExtension;
 
 /**
- * @author David Wolter <david@lovoo.com>
+ * @author David Wolter <davewwwo@gmail.com>
  */
 class ValidationMappingExtensionTest extends \PHPUnit_Framework_TestCase
 {

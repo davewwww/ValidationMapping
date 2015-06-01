@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
- * @author David Wolter <david@lovoo.com>
+ * @author David Wolter <davewwwo@gmail.com>
  */
 class AddValidationMappingsPass implements CompilerPassInterface
 {

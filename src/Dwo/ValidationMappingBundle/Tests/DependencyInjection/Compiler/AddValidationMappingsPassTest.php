@@ -5,7 +5,7 @@ namespace Dwo\ValidationMappingBundle\Tests\DependencyInjection\Compiler;
 use Dwo\ValidationMappingBundle\DependencyInjection\Compiler\AddValidationMappingsPass;
 
 /**
- * @author David Wolter <david@lovoo.com>
+ * @author David Wolter <davewwwo@gmail.com>
  */
 class AddValidationMappingsPassTest extends \PHPUnit_Framework_TestCase
 {

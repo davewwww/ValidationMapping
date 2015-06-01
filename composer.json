@@ -2,14 +2,14 @@
     "name": "dwo/validation_mapping_bundle",
     "description": "define extra validation files which are not in the 'Bundle*/Resources/config' directory",
     "keywords": ["validation", "mapping", "config"],
-    "homepage": "http://www.lovoo.com",
+    "homepage": "https://github.com/davewwww",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "David Wolter",
-            "email": "david@lovoo.com",
-            "homepage": "http://www.lovoo.com"
+            "email": "davewwwo@gmail.com",
+            "homepage": "https://github.com/davewwww"
         }
     ],
     "require": {

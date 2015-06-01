@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * @author David Wolter <david@lovoo.com>
+ * @author David Wolter <davewwwo@gmail.com>
  */
 class DwoValidationMappingBundle extends Bundle
 {
